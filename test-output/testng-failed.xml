@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="crm.qa.extentReports.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="crm.qa.testcases.HomePageTC">
+        <methods>
+          <include name="tear"/>
+          <include name="testlogout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- crm.qa.testcases.HomePageTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
